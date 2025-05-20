@@ -19,11 +19,11 @@ class AppwriteService {
 
   // Appwrite constants
   final String endpoint = 'https://cloud.appwrite.io/v1';
-  final String projectId = '-'; // Replace with your Appwrite project ID
-  final String databaseId = '-';
-  final String userCollectionId = '-';
-  final String chatSessionsCollectionId = '-';
-  final String chatMessagesCollectionId = '-';
+  final String projectId = '--'; // Replace with your Appwrite project ID
+  final String databaseId = '--';
+  final String userCollectionId = '--';
+  final String chatSessionsCollectionId = '--';
+  final String chatMessagesCollectionId = '--';
 
   bool _initialized = false;
 
